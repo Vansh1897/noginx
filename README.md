@@ -118,5 +118,7 @@ A real-time NGINX anomaly detection and alert system.
     ```
 - You can customise the model via the feature engineering or tweaking with the Isolation Forest.
 - RUN 
-    '''C:\WINDOWS\system32> 1..500 | ForEach-Object {curl.exe -s http://localhost/test$_ > $null}'''
+    '''console
+          C:\WINDOWS\system32> 1..500 | ForEach-Object {curl.exe -s http://localhost/test$_ > $null}
+    '''
     in powershell if you want to create a synthetic anomaly.
