@@ -16,7 +16,7 @@ predict_one_url = os.getenv('PREDICT_ONE_URL')
 noginx_mail_id = os.getenv('NOGINX_MAIL_ID')
 noginx_mail_password = os.getenv('NOGINX_MAIL_PASSWORD')
 receiver_mail_id = os.getenv('RECEIVER_MAIL_ID')
-default_log_path = r"C:\Users\vansh\Downloads\nginx-1.31.3\nginx-1.31.3\logs\access.log"
+default_log_path = r"C:\Users\nginx-1.31.3\nginx-1.31.3\logs\access.log"
 log_file_path = os.getenv('NOGINX_ACCESS_LOG_PATH', default_log_path)
 
 
